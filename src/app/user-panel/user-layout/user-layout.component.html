@@ -1,0 +1,13 @@
+<p>
+  <mat-toolbar>
+    <a [routerLink]="['/']">Online Shop</a>
+    <span class="example-spacer"></span>
+    <a [routerLink]="['/']" style="margin-left: 30px;font-size: 15px;">Part List</a>
+    <a [routerLink]="['/shopping-cart']" style="margin-left: 30px;font-size: 15px;">
+      <span matBadge={{itemCount}} matBadgeOverlap="true"> Shopping Cart</span></a>
+    <button style="margin-left: 30px;" (click)="logout()">Log out</button>
+  </mat-toolbar>
+</p>
+<div style="margin: 15px 50px; background-color: #eee; padding: 15px">
+  <router-outlet></router-outlet>
+</div>

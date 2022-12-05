@@ -1,0 +1,80 @@
+{
+  "stockAreas": [
+    {
+      "id": 524075,
+      "stockArea": "AWGBCS",
+      "description": "Austin Water Glen Bell Central Stores"
+    },
+    {
+      "id": 524076,
+      "stockArea": "AWWBCS",
+      "description": "Austin Water Webberville Central Store"
+    }
+  ],
+  "parts": [
+    {
+      "id": 197701,
+      "stockAreaId":524075,
+      "averageCost": 0.7100,
+      "description": "SANDPAPER COARSE",
+      "issueUnitofMeasure": "SH",
+      "orderQty": 0,
+      "partNumber": "00514102004",
+      "quantityAvailable": 24
+    },
+    {
+      "id": 197702,
+      "stockAreaId":524075,
+      "averageCost": 0.9784,
+      "description": "PAPER ABRASIVE WET NO.280 GRIT",
+      "issueUnitofMeasure": "SH",
+      "orderQty": 0,
+      "partNumber": "00514103001",
+      "quantityAvailable": 96
+    },
+    {
+      "id": 197703,
+      "stockAreaId":524076,
+      "averageCost": 0.5001,
+      "description": "PAPER ABRASIVE WET NO. 320 GRIT",
+      "issueUnitofMeasure": "SH",
+      "orderQty": 0,
+      "partNumber": "00514103002",
+      "quantityAvailable": 45
+    },
+    {
+      "id": 197708,
+      "stockAreaId":524076,
+      "averageCost": 46.8550,
+      "description": "PIPE PROTECTOR POLY TUBE 18 INCHES FOR 3-6INCES PIPE",
+      "issueUnitofMeasure": "RO",
+      "orderQty": 0,
+      "partNumber": "01078820001",
+      "quantityAvailable": 5
+    },
+    {
+      "id": 197709,
+      "stockAreaId":524076,
+      "averageCost": 84.1312,
+      "description": "PIPE PROTECTOR POLY TUBE 29 INCHES FOR 8-12 INCES PIPE",
+      "issueUnitofMeasure": "RO",
+      "orderQty": 0,
+      "partNumber": "01078820003",
+      "quantityAvailable": 1
+    }
+  ],
+  "ShoppingDepartment":[
+    {
+      "Code":"Fire1",
+      "Description":"Fire1 Dept"
+    },
+    {
+      "Code":"Fire2",
+      "Description":"Fire2 Dept"
+    },
+    {
+      "Code":"Fire3",
+      "Description":"Fire Dept3"
+    }
+  ]
+}

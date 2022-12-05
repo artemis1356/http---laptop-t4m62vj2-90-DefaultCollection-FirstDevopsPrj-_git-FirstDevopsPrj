@@ -1,0 +1,7 @@
+.product-filter-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.product-filter-box .product-filter-item{
+    padding-left: 20px;
+}
